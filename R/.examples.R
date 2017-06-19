@@ -2,7 +2,7 @@ rm(list = ls())
 
 library(parallel)
 
-source(./numint.r")
+source("./numint.r")
 
 # Example with univariate function ----------------------------------------
 
@@ -44,9 +44,5 @@ lower <- rep(-1, k)
 upper <- rep(0,k)
 
 microbenchmark(
-  core1 = num_int(dmvnorm, a = lower, b = upper, mean = rep(0,100), sigma = diag(100),
-                  N = N, ncores = 1),
-  core4 = num_int(dmvnorm, a = lower, b = upper, mean = rep(0,100), sigma = diag(100),
-                  N = N, ncores = 4),
-  times = 1, unit="relative"
-)
+  core1 = num_int(dmvnorm, a = lower, b = upper, mean = rep(0,100), sigma = diag(100), N = N, ncores = 1),
+  core4 = num_int(dmvnorm, a = lower, b = upper, mean = rep(0,100), sigma = diag(100), N = N, ncores = 4),times = 1, unit="relative")
