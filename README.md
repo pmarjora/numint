@@ -3,7 +3,7 @@
 numint
 ======
 
-The goal of numint is to ...
+The goal of numint is to ...XXXXXXX
 
 Example
 -------
