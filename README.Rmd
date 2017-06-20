@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 # numint
 
-The goal of numint is to teach me something about how to build R packages.
+The goal of numint is to teach me something about how to build R packages. This was knitted on `r Sys.Date()` 
 
 ## Example
 

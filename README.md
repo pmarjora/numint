@@ -3,12 +3,12 @@
 numint
 ======
 
-The goal of numint is to ...XXXXXXX
+The goal of numint is to teach me something about how to build R packages. This was knitted on 2017-06-20
 
 Example
 -------
 
-This is a basic example which shows you how to solve a common problem:
+We are going to put some usage examples here:
 
 ``` r
 ## basic example code
