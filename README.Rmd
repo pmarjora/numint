@@ -16,11 +16,11 @@ knitr::opts_chunk$set(
 
 # numint
 
-The goal of numint is to ...
+The goal of numint is to teach me something about how to build R packages.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+We are going to put some usage examples here:
 
 ```{r example}
 ## basic example code
